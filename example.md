@@ -19,7 +19,7 @@
 > 源码编译
 
 ##配置
-```python { .theme-legacy }
+```json
 http://su.bj1993.net, https://su.bj1993.net {
         gzip
         root  /home/caddy/html
@@ -49,6 +49,7 @@ http://www.bj1993.net {
         gzip
 }
 ```
+
 > 自动申请证书，申请完证书存放在~/.caddy/acme/acme-v02.api.letsencrypt.org/sites/位置
 ![图片](https://agroup-bos.cdn.bcebos.com/eefc8a45f543bd66dd58a5130d01444262fe9cc0)
 
